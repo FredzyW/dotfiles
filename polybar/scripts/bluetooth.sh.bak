@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# Check if the bluetooth.service is active
+if [ "$(systemctl is-active "bluetooth.service")" = "active" ]; then
+    # Check if Bluetooth is powered on
+    if bluetoothctl show | grep -q "Powered: yes"; then
+        # Check if any device is connected
+        if bluetoothctl info | grep -q "Connected: yes"; then
+            echo CONNECTED
+        else 
+            echo ON
+        fi
+    else 
+        echo OFF
+    fi
+else
+    echo 'SERVICE DISABLED'
+fi
+

@@ -1,0 +1,12 @@
+2023/10/16-14:17:58.127 7282 Reusing MANIFEST /home/fwastring/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/16-14:17:58.127 7282 Recovering log #4
+2023/10/16-14:17:58.168 7282 Reusing old log /home/fwastring/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000004.log 
+2023/10/16-14:17:58.540 7281 Level-0 table #8: started
+2023/10/16-14:17:58.557 7281 Level-0 table #8: 1396794 bytes OK
+2023/10/16-14:17:58.562 7281 Delete type=0 #4
+2023/10/16-14:38:26.302 7281 Compacting 1@1 + 1@2 files
+2023/10/16-14:38:26.323 7281 Generated table #9@1: 1780 keys, 392305 bytes
+2023/10/16-14:38:26.323 7281 Compacted 1@1 + 1@2 files => 392305 bytes
+2023/10/16-14:38:26.325 7281 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/16-14:38:26.325 7281 Delete type=2 #5
+2023/10/16-14:38:26.325 7281 Delete type=2 #8
