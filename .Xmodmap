@@ -1,0 +1,16 @@
+! Swap Caps Lock and Escape
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+keysym Escape = Caps_Lock
+add Lock = Caps_Lock
+
+clear Mod1
+clear Mod4
+clear Control
+keycode 105 = F12
+keycode 64 = Super_L
+keycode 133 = Alt_L
+add Control = Control_L
+add Mod1 = Alt_L Alt_R
+add Mod4 = Super_L Super_R
+

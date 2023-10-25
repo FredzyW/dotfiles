@@ -1,5 +1,5 @@
 import:
- - /home/fwastring/themes/alacritty-theme/themes/palenight.yaml
+ - /home/fwastring/.config/alacritty/catppuccin/catppuccin-frappe.yml
 
 font:
   size: 16.0
