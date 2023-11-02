@@ -13,6 +13,8 @@ lvim.builtin.lualine.sections.lualine_b = { "lsp_progress" }
 vim.opt.wrap = true 
 vim.o.termguicolors = true
 
+
+
 vim.cmd [[
   function! s:AutoCompileMarkdown()
     " Set up the autocmd to run the script after saving a markdown file
