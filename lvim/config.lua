@@ -6,20 +6,8 @@
 vim.api.nvim_set_keymap('n', 'j', 'gj', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'k', 'gk', { noremap = true, silent = true })
 lvim.transparent_window = true
--- vim.g.neon_style = "doom"
--- require("catppuccin").setup({
---     flavour = "frappe", -- latte, frappe, macchiato, mocha
---     -- background = { -- :h background
---     --     light = "latte",
---     --     dark = "mocha",
---     -- },
---     -- transparent_background = false, -- disables setting the background color.
---     -- show_end_of_buffer = false, -- shows the '~' characters after the end of buffers
---     -- term_colors = false, -- sets terminal colors (e.g. `g:terminal_color_0`)
--- })
-
-vim.g.catppuccin_flavour = "frappe"  -- set the flavor
-lvim.colorscheme = "catppuccin"
+-- vim.g.catppuccin_flavour = "latte"  -- set the flavor
+-- lvim.colorscheme = "catppuccin-latte"
 -- setup must be called before loading
 lvim.builtin.lualine.sections.lualine_b = { "lsp_progress" }
 vim.opt.wrap = true 
@@ -51,5 +39,5 @@ vim.wo.number = true          -- Show the current line number
 lvim.plugins = {
   {"lervag/vimtex"},
   {"rafamadriz/neon"},
-  {"catppuccin/nvim", name = "catppuccin"}
+  -- {"catppuccin/nvim", name = "catppuccin", flavor = "latte"}
 }

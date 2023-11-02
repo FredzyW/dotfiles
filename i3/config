@@ -82,7 +82,7 @@ bindsym $mod+Shift+s exec --no-startup-id "scrot -s -e 'mv $f ~/Pictures/'"
 
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id alacritty -e tmux
 
 # kill focused window
 bindsym $mod+Shift+q kill
