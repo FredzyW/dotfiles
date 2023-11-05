@@ -1,4 +1,7 @@
 1Password/
+VirtualBox/
+lazygit/
+systemd/
 accounts.conf
 akonadi*
 akregatorrc

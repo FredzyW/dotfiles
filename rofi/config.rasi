@@ -1,7 +1,0 @@
-configuration {
- modi: "window,drun,ssh,combi";
- font: "hack 24";
- combi-modi: "window,drun,ssh";
- }
-//@theme "/home/fwastring/.config/rofi/Adapta-Nokto.rasi"
-@theme "/home/fwastring/.local/share/rofi/themes/rounded-purple-dark.rasi"
