@@ -35,6 +35,7 @@ exec --no-startup-id "picom -b"
 
 bindsym $mod+Shift+X exec --no-startup-id xset dpms force off
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock -i /home/fwastring/Pictures/Sweden_Purple_Landscape_Blurred.png --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- xautolock --no-fork
 
 
 # Background image
@@ -87,6 +88,7 @@ bindsym $mod+Return exec --no-startup-id alacritty -e tmux attach -t $(tmux list
 
 # kill focused window
 bindsym $mod+Shift+q kill
+bindsym $mod+q exec --no-startup-id surf https://searx.space
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
