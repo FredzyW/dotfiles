@@ -5,6 +5,8 @@
 
 vim.api.nvim_set_keymap('n', 'j', 'gj', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', 'k', 'gk', { noremap = true, silent = true })
+lvim.keys.normal_mode["|"] = ":vsplit<CR>"
+lvim.keys.normal_mode["-"] = ":split<CR>"
 lvim.transparent_window = true
 -- vim.g.catppuccin_flavour = "latte"  -- set the flavor
 -- lvim.colorscheme = "catppuccin-latte"
